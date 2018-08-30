@@ -22,10 +22,15 @@ Normal(0, 1) error terms:
 5) Run the models: Within each of the folders "Main/Normal_Errors/Beta1", "Main/Normal_Errors/Beta2", "Main/Normal_Errors/Beta3", copy and submit the following jobs and execute the following scripts:
 
 	a) LASSO to execute Lasso.R # 36 jobs run in array
+	
 	b) ELASTICNET25 to execute EN25.R # 36 jobs run in array
+	
 	c) ELASTICNET50 to execute EN50.R # 36 jobs run in array
+	
 	d) ELASTICNET75 to execute EN75.R # 36 jobs run in array
+	
 	e) BLASSO to execute BLasso.R # 36 jobs run in array
+	
 	f) MARS_MODELS to execute MARS.R # 180 jobs run in array
 
 6) Summarize results for each treatment effect size: Copy "summaries_beta1_normal.R" to "Main/Normal_Errors/Beta1" folder; 
@@ -48,10 +53,15 @@ Logistic(0, 1) error terms:
 5) Run the models: Within each of the folders "Main/Logistic_Errors/Beta1", "Main/Logistic_Errors/Beta2", "Main/Logistic_Errors/Beta3", copy and submit the following jobs and execute the following scripts:
 
 	a) LASSO to execute Lasso.R # 36 jobs run in array
+	
 	b) ELASTICNET25 to execute EN25.R # 36 jobs run in array
+	
 	c) ELASTICNET50 to execute EN50.R # 36 jobs run in array
+	
 	d) ELASTICNET75 to execute EN75.R # 36 jobs run in array
+	
 	e) BLASSO to execute BLasso.R # 36 jobs run in array
+	
 	f) MARS_MODELS to execute MARS.R # 180 jobs run in array
 
 6) Summarize results for each treatment effect size: Copy "summaries_beta1_logistic.R" to "Main/Logistic_Errors/Beta1" folder; 
