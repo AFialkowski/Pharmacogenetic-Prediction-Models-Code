@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --share
+#SBATCH --partition=medium
+#SBATCH --job-name=SIM_VARS_NORMAL
+#SBATCH --array=1-36
+#SBATCH --error=NSIM_%a.err 
+#SBATCH --output=NSIM_%a.out
+#SBATCH --ntasks=1 
+#SBATCH --time=2-2:00:00
+#SBATCH --mem-per-cpu=200GB
+
+module load R
+srun R CMD BATCH sim_vars_normal.R
