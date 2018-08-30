@@ -1,4 +1,5 @@
 "# Pharmacogenetic-Prediction-Models-Code" 
+
 The analysis done in this paper was performed using the R (v3.4.3) programming language executed on a (Linux) CentOs operating system.  As specified below, some scripts were executed as single (stand alone) scripts within R and some were submitted as jobs using Slurm on the University of Alabama at Birmingham's Cheaha computer.  Although the code may be modified to run as scripts within R, the simulations and models take considerable time to run, necessitating the use of a job system.
 
 The following are instructions for the user:
